@@ -47,7 +47,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Game"
+        android:text="EXIT"
         android:id="@+id/button6"
         android:background="#c0aaf0"
         android:clickable="true"
