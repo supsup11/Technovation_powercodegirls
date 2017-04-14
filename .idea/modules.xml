@@ -4,9 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Technovation_PowerCodeGirls.iml" filepath="$PROJECT_DIR$/Technovation_PowerCodeGirls.iml" />
       <module fileurl="file://$PROJECT_DIR$/Technovation_powerCodegirls.iml" filepath="$PROJECT_DIR$/Technovation_powerCodegirls.iml" />
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/Technovation_powercodegirl.iml" filepath="$PROJECT_DIR$/Technovation_powercodegirl.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/Technovation_powercodegirls.iml" filepath="$PROJECT_DIR$/Technovation_powercodegirls.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+>>>>>>> 7fec9d2c351fa3517c273ae60e5d998e7ff3194c
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
