@@ -7,52 +7,101 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.robuntu.technovation_powercodegirls.MainActivity"
-    android:background="#374d30">
+    tools:context="com.strobertchs.story_game.MainActivity"
+    android:background="@drawable/storm">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="LAST CHANCE"
-        android:id="@+id/textView2"
-        android:textColor="#f0ead1"
+        android:text="Faded"
+        android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textStyle="bold"
-        android:typeface="monospace" />
+        android:textSize="72dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="A Storygame About Bullying"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textIsSelectable="false"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Game"
+        android:text="New game"
         android:id="@+id/button"
-        android:background="#c0aaf0"
-        android:clickable="true"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#c0aaf0"
+        android:onClick="newGame"
+        android:clickable="true" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CREDITS"
-        android:id="@+id/button5"
-        android:background="#c0aaf0"
-        android:clickable="true"
+        android:text="(Finish a game to unlock this)"
+        android:id="@+id/loadGame"
         android:layout_below="@+id/button"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="81dp" />
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_marginTop="20dp"
+        android:background="#c0aaf0"
+        android:enabled="false"
+        android:onClick="loadGame"
+        android:clickable="true" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="EXIT"
-        android:id="@+id/button6"
+        android:text="options"
+        android:id="@+id/button3"
+        android:layout_below="@+id/loadGame"
+        android:layout_alignLeft="@+id/loadGame"
+        android:layout_alignStart="@+id/loadGame"
+        android:layout_alignRight="@+id/loadGame"
+        android:layout_marginTop="20dp"
         android:background="#c0aaf0"
+        android:onClick="options"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="credits"
+        android:id="@+id/button4"
+        android:layout_marginTop="20dp"
+        android:background="#c0aaf0"
+        android:onClick="credits"
         android:clickable="true"
-        android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_below="@+id/loadGame"
+        android:layout_alignLeft="@+id/loadGame"
+        android:layout_alignStart="@+id/loadGame"
+        android:layout_alignRight="@+id/loadGame" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="quit"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_alignRight="@+id/button4"
+        android:layout_marginTop="20dp"
+        android:background="#c0aaf0"
+        android:onClick="quit"
+        android:clickable="true" />
 
 </RelativeLayout>

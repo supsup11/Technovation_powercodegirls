@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Technovation_Power Code Girls</string>
+    <string name="app_name">Faded</string>
+
+    <string name="credits_text">
+        Faded, A Storygame About Bullying
+        \nA story by The Awesome Team
+        \nArt by: Katie Tong, Michelle Lee
+        \nScanning: Deana Yau
+        \nProgrammed by The Awesome Team
+        \n
+        \nBullying is a problem found in most schools. It is always there, and we want to help stop it.
+        This storygame promotes bullying awareness. If you see someone being bullied, don\'t
+        hesitate to report it to a teacher or other person in charge, if you don\'t want
+        to step in.
+        \nBe the change you want to see in the world.
+    </string>
+
+
 </resources>

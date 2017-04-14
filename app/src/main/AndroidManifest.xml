@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.robuntu.technovation_powercodegirls">
+    package="com.strobertchs.story_game">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar">
+        android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -15,6 +15,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SwitchScreen.switchScreenBoyBullyStory"></activity>
+
+        <activity android:name=".SwitchScreen.switchScreenVictimBoyStory">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SwitchScreen.switchScreenGirlStory"></activity>
+        <activity android:name=".SwitchScreen.switchScreenChooseCharacter">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SwitchScreen.switchScreenCredits"></activity>
+        <activity android:name=".SwitchScreen.switchScreenNameBoy"></activity>
+        <activity android:name=".SwitchScreen.switchScreenNameGirl"></activity>
+        <activity android:name=".SwitchScreen.switchScreenExit"></activity>
+
+        <activity android:name=".Ashley"></activity>
+        <activity android:name=".Roman"></activity>
+        <activity android:name=".ChooseBully"></activity>
     </application>
 
 </manifest>
